@@ -1,5 +1,5 @@
 <template>
-  <WujieVue class="angular-container" name="angular12" :url="url" :attrs="attrs" :sync="true"></WujieVue>
+  <WujieVue class="app-container" name="angular12" :url="url" :attrs="attrs" :sync="true"></WujieVue>
 </template>
 
 <script>
@@ -16,8 +16,8 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
-.angular-container {
+<style lang="scss" scoped>
+.app-container {
   width: 100%;
   height: 100%;
 }
